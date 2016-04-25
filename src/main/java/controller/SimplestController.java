@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/")
 public class SimplestController {
 
-    @RequestMapping(value = "/")
+    @RequestMapping(value = "/admin")
     public String list(ModelMap model) {
         model.addAttribute("firstVal", "pretty simple");
         return "main";
