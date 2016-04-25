@@ -9,7 +9,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class SimplestController {
 
     @RequestMapping(value = "/admin")
-    public String list(ModelMap model) {
+    public String listOne(ModelMap model) {
+        model.addAttribute("firstVal", "pretty simple");
+        return "main";
+    }
+
+    @RequestMapping(value = "/")
+    public String listTwo(ModelMap model) {
         model.addAttribute("firstVal", "pretty simple");
         return "main";
     }
