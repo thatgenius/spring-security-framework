@@ -2,10 +2,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>that_genius</groupId>
-    <artifactId>simplest-spring-app</artifactId>
+    <artifactId>spring-security-framework</artifactId>
     <packaging>war</packaging>
     <version>1.0</version>
-    <name>simplest-spring-app</name>
+    <name>spring-security-framework</name>
 
     <properties>
         <spring.mvc>4.1.1.RELEASE</spring.mvc>
