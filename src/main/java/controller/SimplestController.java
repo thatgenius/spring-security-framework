@@ -22,6 +22,12 @@ public class SimplestController {
         return "main";
     }
 
+    @RequestMapping(value = "/isThisSecured")
+    public String listFour(ModelMap model) {
+        model.addAttribute("firstVal", "print this text one more time");
+        return "main";
+    }
+
     @RequestMapping(value = "/public")
     public String listThree(ModelMap model) {
         model.addAttribute("firstVal", "print this text one more time");
