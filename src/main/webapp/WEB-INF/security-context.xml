@@ -20,6 +20,7 @@
         <beans:property name="validationQuery" value="SELECT 1"/>
     </beans:bean>
 
+    <!-- See SQL to add one exemplary user account in file user_authorization_tables.sql -->
     <authentication-manager>
         <authentication-provider>
             <password-encoder ref="encoder"/>
